@@ -7,6 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
+fschat = {extras = ["model-worker", "webui"], version = "^0.2.35"}
 
 
 [build-system]
